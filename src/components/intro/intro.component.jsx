@@ -16,7 +16,7 @@ const Intro = () => {
         </p>
         <p>
           When I am not doing Machine Learning, I read novels, nowadays mostly by
-          russian writers or re-reading a Murakami.
+          russian novelist or re-reading a Murakami.
         </p>
         <p>
           I am looking for cool projects that images earth's sub-surface. I am
