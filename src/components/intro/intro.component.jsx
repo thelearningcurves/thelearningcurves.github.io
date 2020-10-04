@@ -8,22 +8,20 @@ const Intro = () => {
       <ProfilePic />
       <div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          molestiae vitae explicabo alias, corporis ex fuga necessitatibus quam
-          ipsa fugiat consequuntur ipsam tempora est repellendus culpa, minus
-          facilis itaque pariatur.
+          Hello!
+          I am a data-driven geophysicist focused on implementing Machine Learning
+          to solve the inverse geophysical problems. 
+          
+          
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          molestiae vitae explicabo alias, corporis ex fuga necessitatibus quam
-          ipsa fugiat consequuntur ipsam tempora est repellendus culpa, minus
-          facilis itaque pariatur.
+          When I am not doing Machine Learning, I read novels, nowadays mostly by
+          russian writers or re-reading a Murakami.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          molestiae vitae explicabo alias, corporis ex fuga necessitatibus quam
-          ipsa fugiat consequuntur ipsam tempora est repellendus culpa, minus
-          facilis itaque pariatur.
+          I am looking for cool projects that images earth's sub-surface. I am
+          always willing to learn about new domain and often take it as a challenge.
+          
         </p>
       </div>
     </div>
