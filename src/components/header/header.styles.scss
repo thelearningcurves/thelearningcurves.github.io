@@ -15,4 +15,9 @@
       }
     }
   }
+
+  @media (max-width: 800px) {
+    justify-content: center;
+    padding-left: unset;
+  }
 }
