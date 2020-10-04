@@ -3,8 +3,8 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Shobit try</h1>
+    <div className="App-header">
+      <h1>Shobhit Mishra is doodling this site</h1>
     </div>
   );
 }
