@@ -1,0 +1,35 @@
+.skillsets,
+.tools {
+  border: 2px solid red;
+  margin: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  .tools-title,
+  .skillsets-title {
+    width: 40%;
+    font-size: 100px;
+  }
+  ul {
+    border: 2px solid red;
+    width: 60%;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    margin: unset;
+    margin-top: 20px;
+
+    .tools-title,
+    .skillsets-title {
+      width: unset;
+      font-size: 100px;
+    }
+    ul {
+      border: 2px solid red;
+      width: unset;
+    }
+  }
+}
