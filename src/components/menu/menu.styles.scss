@@ -1,0 +1,16 @@
+.menu-open {
+  background: url("../../assets/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  width: 40px;
+  height: 100%;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+
+  @media (min-width: 800px) {
+    display: none;
+  }
+}
