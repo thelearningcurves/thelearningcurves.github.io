@@ -6,17 +6,24 @@ const HeaderItems = () => {
   return (
     <ul>
       <li>
-        <a href="https://google.com"> Header 1</a>
+        <a href=https://thelearningcurves.github.io/my_blog/> My Blog</a>
       </li>
       <li>
-        <a href="https://google.com"> Header 2</a>
+        <a href="https://google.com"> Inversion</a>
       </li>
       <li>
         <a href="https://google.com"> Migration</a>
       </li>
       <li>
-        <a href="https://google.com"> DL/ML</a>
+        <a href="https://google.com"> Geophysics </a>
       </li>
+      <li>
+        <a href="https://google.com"> ML/DL </a>
+      </li>
+      <li>
+        <a href="https://google.com"> Bayesian </a>
+      </li>
+    
     </ul>
   );
 };
