@@ -6,7 +6,7 @@
   justify-content: flex-end;
   align-items: center;
   padding-right: 10%;
-  ul {
+  .header-items {
     li {
       display: inline;
       padding: 0 10px;
@@ -19,8 +19,24 @@
   @media (max-width: 800px) {
     justify-content: flex-start;
     padding-right: unset;
-    ul {
-      display: none;
+    height: 40px;
+    .header-items {
+      position: absolute;
+      background: black;
+      width: 100%;
+      top: 40px;
+      left: 0;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 100%;
+        padding: 0 10px;
+        a {
+          color: white;
+        }
+      }
     }
   }
 }
