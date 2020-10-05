@@ -20,7 +20,7 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href="https://google.com">
+        <a href="https://github.com/thelearningcurves">
           <Twitter />
         </a>
       </li>
