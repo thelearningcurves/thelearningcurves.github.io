@@ -10,7 +10,7 @@ const Socials = () => {
   return (
     <ul className="socials">
       <li>
-        <a href="https://google.com">
+        <a href="https://www.linkedin.com/in/shobhit-mishra-479997148/">
           <Linkedin />
         </a>
       </li>
