@@ -1,10 +1,10 @@
 import React from "react";
-import "./skillsets.styles.scss";
+import "./skillset.styles.scss";
 
-const Skillsets = () => {
+const Skillset = () => {
   return (
     <div className="skillset">
-      <div className="skillset-title">Skillsets</div>
+      <div className="skillset-title">Skillset</div>
       <ul>
         <li>Digital Signal Processing</li>
         <li>Seismic Data Processing</li>
@@ -17,4 +17,4 @@ const Skillsets = () => {
   );
 };
 
-export default Skillsets;
+export default Skillset;
