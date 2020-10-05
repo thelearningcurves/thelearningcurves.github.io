@@ -1,6 +1,10 @@
 import React from "react";
 import "./header.styles.scss";
 
+import { ReactComponent as GithubLogo } from "../../assets/github.svg";
+import { ReactComponent as LinkedinLogo } from "../../assets/linkedin.svg";
+import { ReactComponent as KaggleLogo } from "../../assets/kaggle.svg";
+import { ReactComponent as TwitterLogo } from "../../assets/twitter.svg";
 import Menu from "../menu/menu.component";
 export const HeaderItems = ({ menuOpen }) => {
   return (
@@ -30,6 +34,28 @@ export const HeaderItems = ({ menuOpen }) => {
 const Header = () => {
   return (
     <header className="page-header">
+      <ul className="header-links">
+        <li>
+          <a href="https://github.com/thelearningcurves">
+            <GithubLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/thelearningcurves">
+            <TwitterLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://google.com">
+            <LinkedinLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://google.com">
+            <KaggleLogo />
+          </a>
+        </li>
+      </ul>
       <Menu />
     </header>
   );

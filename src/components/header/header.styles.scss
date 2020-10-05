@@ -1,9 +1,9 @@
 .page-header {
-  background: #101010;
+  background: black;
   color: white;
   height: 40px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding-right: 10%;
   font-family: "Sansita Swashed", cursive;
@@ -16,7 +16,30 @@
       }
     }
   }
-
+  .header-links {
+    display: flex;
+    margin-left: 20px;
+    li {
+      padding: 2px 10px;
+      width: 60px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        svg {
+          width: 30px;
+          fill: white;
+        }
+        &:hover {
+          padding-bottom: 8px;
+        }
+      }
+    }
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
   @media (max-width: 800px) {
     justify-content: flex-start;
     padding-right: unset;

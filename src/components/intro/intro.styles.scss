@@ -12,6 +12,22 @@
   svg {
     width: 400px;
   }
+  .profile-pic {
+    background: url("../../assets//profile-pic.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+    &:hover {
+      animation: zoom 3s 1;
+    }
+  }
   @media (max-width: 800px) {
     flex-direction: column;
     margin: unset;
@@ -22,5 +38,19 @@
     svg {
       width: 200px;
     }
+
+    .profile-pic {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+@keyframes zoom {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 125% 125%;
   }
 }
