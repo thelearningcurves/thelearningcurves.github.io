@@ -25,17 +25,15 @@ class MessageMe extends React.Component {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Thank you for Messaging");
         },
         (error) => {
           console.log(error.text);
         }
       );
-
-    this.setState({
-      name: "",
-      email: "",
-      message: "",
-    });
+    event.target.name.value = "";
+    event.target.email.value = "";
+    event.target.message.value = "";
   };
   handleChange = (event) => {
     const { name, value } = event.target;
@@ -53,7 +51,6 @@ class MessageMe extends React.Component {
           id="name"
           label="name"
           name="user_name"
-          han
           handleChange={this.handleChange}
         />
         <InputGroup

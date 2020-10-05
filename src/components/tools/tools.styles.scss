@@ -31,3 +31,20 @@
 //     }
 //   }
 // }
+
+// #hammer {
+//   animation: hit 1s linear infinite;
+//   transform-origin: center;
+// }
+
+// @keyframes hit {
+//   from {
+//     transform: rotate(20deg);
+//   }
+//   50% {
+//     transform: rotate(-60deg);
+//   }
+//   to {
+//     transform: rotate(20deg);
+//   }
+// }
