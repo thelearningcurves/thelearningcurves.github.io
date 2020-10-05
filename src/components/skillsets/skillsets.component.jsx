@@ -3,14 +3,15 @@ import "./skillsets.styles.scss";
 
 const Skillsets = () => {
   return (
-    <div className="skillsets">
-      <div className="skillsets-title">Skillsets</div>
+    <div className="skillset">
+      <div className="skillset-title">Skillsets</div>
       <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <li>Skill 4</li>
-        <li>Skill 5</li>
+        <li>Digital Signal Processing</li>
+        <li>Seismic Data Processing</li>
+        <li>Inversion[Model Estimation]</li>
+        <li>Migration</li>
+        <li>Machine Learning</li>
+        <li>Numerical Modelling</li>
       </ul>
     </div>
   );

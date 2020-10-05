@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./header.styles.scss";
 
 import Menu from "../menu/menu.component";
-const HeaderItems = () => {
+export const HeaderItems = ({ isMobile }) => {
   return (
     <ul>
       <li>
