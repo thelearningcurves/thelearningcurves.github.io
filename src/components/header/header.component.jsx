@@ -6,7 +6,7 @@ const HeaderItems = () => {
   return (
     <ul>
       <li>
-        <a href=https://thelearningcurves.github.io/my_blog/> My Blog</a>
+        <a href="https://thelearningcurves.github.io/my_blog"> My Blog</a>
       </li>
       <li>
         <a href="https://google.com"> Inversion</a>
@@ -23,7 +23,6 @@ const HeaderItems = () => {
       <li>
         <a href="https://google.com"> Bayesian </a>
       </li>
-    
     </ul>
   );
 };
