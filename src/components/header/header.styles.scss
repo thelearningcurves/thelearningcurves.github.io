@@ -1,17 +1,18 @@
 .page-header {
-  background-color: black;
+  background: #101010;
   color: white;
   height: 40px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding-right: 10%;
+  font-family: "Sansita Swashed", cursive;
   .header-items {
     li {
       display: inline;
       padding: 0 10px;
       a {
-        color: red;
+        color: white;
       }
     }
   }

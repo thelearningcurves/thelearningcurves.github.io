@@ -1,34 +1,73 @@
 .skillset,
 .tools {
-  border: 2px solid red;
+  box-shadow: 3px -4px 5px 5px whitesmoke;
+  border-bottom: 2px solid #101010aa;
   margin: 50px 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
 
-  .tools-title,
-  .skillset-title {
+  .skillset-title,
+  .tools-title {
     width: 40%;
-    font-size: 100px;
+    font-family: "Sansita Swashed", cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+      font-size: 100px;
+    }
+    svg {
+      width: 100px;
+    }
   }
   ul {
-    border: 2px solid red;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    li {
+      font-size: 20px;
+    }
+    &.tools-list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-weight: bold;
+      li {
+        padding: 4px 0;
+      }
+      ol {
+        list-style-type: none;
+        font-weight: normal;
+        background: whitesmoke;
+        text-align: center;
+      }
+    }
   }
 
   @media (max-width: 800px) {
     flex-direction: column;
     margin: unset;
     margin-top: 20px;
-
-    .tools-title,
-    .skillset-title {
+    box-shadow: unset;
+    border: 2px solid #101010aa;
+    .skillset-title,
+    .tools-title {
       width: unset;
-      font-size: 100px;
+      margin-bottom: 20px;
+      h1 {
+        padding-left: 20px;
+        font-size: 40px;
+      }
+      svg {
+        width: 50px;
+      }
     }
     ul {
-      border: 2px solid red;
       width: unset;
     }
   }

@@ -1,11 +1,16 @@
 import React from "react";
 import "./tools.styles.scss";
 
+import { ReactComponent as Tools } from "../../assets/tools.svg";
+
 const Tool = () => {
   return (
     <div className="tools">
-      <div className="tools-title">Tool</div>
-      <ul>
+      <div className="tools-title">
+        <Tools />
+        <h1>Tools</h1>
+      </div>
+      <ul className="tools-list">
         <li>Python</li>
         <li>
           ML library
@@ -22,7 +27,7 @@ const Tool = () => {
           </ol>
         </li>
         <li>
-          <a href="https://devitoproject.org">Devito</a>[Domain Specific
+          <a href="https://devitoproject.org">Devito </a>[Domain Specific
           Language]
         </li>
         <li>

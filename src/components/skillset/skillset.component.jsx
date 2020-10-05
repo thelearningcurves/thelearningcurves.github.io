@@ -1,10 +1,15 @@
 import React from "react";
 import "./skillset.styles.scss";
 
+import { ReactComponent as Skills } from "../../assets/skills.svg";
+
 const Skillset = () => {
   return (
     <div className="skillset">
-      <div className="skillset-title">Skillset</div>
+      <div className="skillset-title">
+        <Skills />
+        <h1>Skillset</h1>
+      </div>
       <ul>
         <li>Digital Signal Processing</li>
         <li>Seismic Data Processing</li>
