@@ -4,7 +4,7 @@ import "./App.scss";
 import Header from "./components/header/header.component";
 import Intro from "./components/intro/intro.component";
 import Tool from "./components/tools/tools.component";
-import Skillsets from "./components/skillsets/skillsets.component";
+import Skillset from "./components/skillset/skillset.component";
 import Footer from "./components/footer/footer.component";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <Intro />
-      <Skillsets />
+      <Skillset />
       <Tool />
       <Footer />
     </>

@@ -15,7 +15,7 @@ const Intro = () => {
           
         </p>
         <p>
-          When I am not doing Machine Learning, I read novels, nowadays mostly by
+          When I am not thinking about ML, I like to read novels, nowadays mostly by
           russian novelist or re-reading a Murakami.
         </p>
         <p>
