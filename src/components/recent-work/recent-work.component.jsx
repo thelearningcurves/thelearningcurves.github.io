@@ -7,13 +7,13 @@ const RecentWork = () => {
       <h1>Recent Work</h1>
       <ul className="socials">
         <li>
-          <a href="https://google.com">Github link</a>
+          <a href="https://github.com/thelearningcurves">Github</a>
         </li>
         <li>
-          <a href="https://google.com">Blog link</a>
+          <a href="https://thelearningcurves.github.io/my_blog/">Blog</a>
         </li>
         <li>
-          <a href="https://google.com">Shop link</a>
+          <a href="https://thelearningcurves.github.io/my_blog/shop/">SHOP</a>
         </li>
       </ul>
     </div>

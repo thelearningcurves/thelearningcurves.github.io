@@ -9,6 +9,7 @@ const Intro = () => {
       <div>
         <p>
           Hello!
+          My name is Shobhit Mishra.
           I am a data-driven geophysicist focused on implementing Machine Learning
           to solve the inverse geophysical problems. 
           

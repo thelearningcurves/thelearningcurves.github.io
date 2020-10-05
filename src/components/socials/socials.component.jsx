@@ -15,17 +15,17 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href="https://google.com">
+        <a href="https://www.instagram.com/the.fat_buddha/">
           <Instagram />
         </a>
       </li>
       <li>
-        <a href="https://github.com/thelearningcurves">
+        <a href="https://twitter.com/thefatbuddha_">
           <Twitter />
         </a>
       </li>
       <li>
-        <a href="https://google.com">
+        <a href="https://www.kaggle.com/pyrtdx">
           <Kaggle />
         </a>
       </li>
