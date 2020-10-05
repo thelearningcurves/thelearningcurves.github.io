@@ -1,12 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./header.styles.scss";
 
+import { ReactComponent as GithubLogo } from "../../assets/github.svg";
+import { ReactComponent as LinkedinLogo } from "../../assets/linkedin.svg";
+import { ReactComponent as KaggleLogo } from "../../assets/kaggle.svg";
+import { ReactComponent as TwitterLogo } from "../../assets/twitter.svg";
 import Menu from "../menu/menu.component";
-export const HeaderItems = ({ isMobile }) => {
+export const HeaderItems = ({ menuOpen }) => {
   return (
-    <ul>
+    <ul className="header-items" style={{ display: menuOpen }}>
       <li>
-        <a href="https://thelearningcurves.github.io/my_blog"> My Blog</a>
+        <a href="https://thelearningcurves.github.io/my_blog"> My Blog </a>
       </li>
       <li>
         <a href="https://google.com"> Inversion</a>
@@ -28,22 +32,30 @@ export const HeaderItems = ({ isMobile }) => {
 };
 
 const Header = () => {
-  const [width, setWidth] = useState(0);
-
-  useEffect(() => {
-    const changeWidth = () => {
-      setWidth(window.innerWidth);
-      console.log(width);
-    };
-    window.addEventListener("resize", changeWidth);
-    return () => {
-      window.removeEventListener("resize", changeWidth);
-    };
-  });
-
   return (
     <header className="page-header">
-      <HeaderItems />
+      <ul className="header-links">
+        <li>
+          <a href="https://github.com/thelearningcurves">
+            <GithubLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/thelearningcurves">
+            <TwitterLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://google.com">
+            <LinkedinLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://google.com">
+            <KaggleLogo />
+          </a>
+        </li>
+      </ul>
       <Menu />
     </header>
   );

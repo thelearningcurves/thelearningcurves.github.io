@@ -1,5 +1,7 @@
 .message-me {
-  border: 2px solid red;
+  box-shadow: 3px 3px 5px 5px whitesmoke;
+  border-bottom: 2px solid #101010aa;
+  margin-bottom: 5px;
   width: 40%;
 
   display: flex;
@@ -7,14 +9,34 @@
 
   h1 {
     text-align: center;
+    font-family: "Sansita Swashed", cursive;
   }
   input[type="submit"] {
     align-self: flex-end;
-    width: 30%;
+    width: 25%;
     margin: 10px 5px;
-    height: 30px;
+    height: 40px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: "Sansita Swashed", cursive;
+    padding-bottom: 4px;
+    &:focus {
+      border: none;
+      outline: none;
+    }
+    &:hover {
+      border: 1px solid black;
+      background: white;
+      color: black;
+      cursor: pointer;
+    }
   }
   @media (max-width: 800px) {
     width: 100%;
+    box-shadow: unset;
+    border: 1px solid black;
+    margin-bottom: 10px;
   }
 }
