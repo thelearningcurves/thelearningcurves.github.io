@@ -41,17 +41,17 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/thelearningcurves">
+          <a href="https://twitter.com/thefatbuddha_">
             <TwitterLogo />
           </a>
         </li>
         <li>
-          <a href="https://google.com">
+          <a href="https://www.linkedin.com/in/shobhit-mishra-479997148/">
             <LinkedinLogo />
           </a>
         </li>
         <li>
-          <a href="https://google.com">
+          <a href="https://www.kaggle.com/pyrtdx">
             <KaggleLogo />
           </a>
         </li>
