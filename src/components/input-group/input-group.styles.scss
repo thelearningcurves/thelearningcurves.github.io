@@ -1,0 +1,14 @@
+.input-group {
+  display: flex;
+  border-bottom: 2px solid black;
+  padding: 10px 12px;
+  height: 50px;
+
+  label {
+    text-transform: capitalize;
+    width: 20%;
+  }
+  input {
+    width: 80%;
+  }
+}

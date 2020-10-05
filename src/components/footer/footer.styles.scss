@@ -1,0 +1,11 @@
+.page-footer {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding: unset;
+  }
+}

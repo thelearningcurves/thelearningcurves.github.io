@@ -1,0 +1,18 @@
+.socials {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+
+  li {
+    padding: 0 20px;
+    svg {
+      width: 40px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+}
