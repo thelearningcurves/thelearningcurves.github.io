@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd90128e.chunk.css",
-    "main.js": "/static/js/main.7f53d36d.chunk.js",
-    "main.js.map": "/static/js/main.7f53d36d.chunk.js.map",
+    "main.css": "/static/css/main.a4d8d405.chunk.css",
+    "main.js": "/static/js/main.a73011c0.chunk.js",
+    "main.js.map": "/static/js/main.a73011c0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd449fdf.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd449fdf.js.map",
-    "static/js/2.77124f04.chunk.js": "/static/js/2.77124f04.chunk.js",
-    "static/js/2.77124f04.chunk.js.map": "/static/js/2.77124f04.chunk.js.map",
+    "static/js/2.881a58a6.chunk.js": "/static/js/2.881a58a6.chunk.js",
+    "static/js/2.881a58a6.chunk.js.map": "/static/js/2.881a58a6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4e7b2627394e7c086641ed1d8907b7ab.js": "/precache-manifest.4e7b2627394e7c086641ed1d8907b7ab.js",
+    "precache-manifest.dab8517aaa0feb1522fb15c846d7c600.js": "/precache-manifest.dab8517aaa0feb1522fb15c846d7c600.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.cd90128e.chunk.css.map": "/static/css/main.cd90128e.chunk.css.map",
-    "static/js/2.77124f04.chunk.js.LICENSE.txt": "/static/js/2.77124f04.chunk.js.LICENSE.txt",
+    "static/css/main.a4d8d405.chunk.css.map": "/static/css/main.a4d8d405.chunk.css.map",
+    "static/js/2.881a58a6.chunk.js.LICENSE.txt": "/static/js/2.881a58a6.chunk.js.LICENSE.txt",
+    "static/media/github.a9f7ad3d.svg": "/static/media/github.a9f7ad3d.svg",
+    "static/media/kaggle.f3a7756a.svg": "/static/media/kaggle.f3a7756a.svg",
+    "static/media/linkedin.e7ccc098.svg": "/static/media/linkedin.e7ccc098.svg",
     "static/media/menu.styles.scss": "/static/media/menu.c97a6c3c.svg",
-    "static/media/profile-pic-temp.c40bca7e.svg": "/static/media/profile-pic-temp.c40bca7e.svg",
+    "static/media/intro.styles.scss": "/static/media/profile-pic.1319b4c3.jpg",
     "static/media/skills.1277ef05.svg": "/static/media/skills.1277ef05.svg",
-    "static/media/tools.9858d66f.svg": "/static/media/tools.9858d66f.svg"
+    "static/media/tools.9858d66f.svg": "/static/media/tools.9858d66f.svg",
+    "static/media/twitter.99489de2.svg": "/static/media/twitter.99489de2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dd449fdf.js",
-    "static/js/2.77124f04.chunk.js",
-    "static/css/main.cd90128e.chunk.css",
-    "static/js/main.7f53d36d.chunk.js"
+    "static/js/2.881a58a6.chunk.js",
+    "static/css/main.a4d8d405.chunk.css",
+    "static/js/main.a73011c0.chunk.js"
   ]
 }
