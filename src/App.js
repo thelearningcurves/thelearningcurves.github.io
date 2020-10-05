@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <Intro />
-      <Skillsets />
+      <Skillset />
       <Tool />
       <Footer />
     </>
