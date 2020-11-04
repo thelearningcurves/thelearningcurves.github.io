@@ -1,11 +1,12 @@
 import React from "react";
 import "./intro.styles.scss";
 
-import { ReactComponent as ProfilePic } from "../../assets/profile-pic-temp.svg";
+// import { ReactComponent as ProfilePic } from "../../assets/profile-pic-temp.svg";
 const Intro = () => {
   return (
     <div className="intro">
-      <ProfilePic />
+      {/* <ProfilePic /> */}
+      <div className="profile-pic" />
       <div>
         <p>
           Hello! I am Shobhit,

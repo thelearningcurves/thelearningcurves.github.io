@@ -2,12 +2,14 @@ import React from "react";
 import "./tools.styles.scss";
 
 import { ReactComponent as Tools } from "../../assets/tools.svg";
+// import { ReactComponent as ToolsNew } from "../../assets/tools-new.svg";
 
 const Tool = () => {
   return (
     <div className="tools">
       <div className="tools-title">
         <Tools />
+        {/* <ToolsNew /> */}
         <h1>Tools</h1>
       </div>
       <ul className="tools-list">
