@@ -13,7 +13,7 @@ export const HeaderItems = ({ menuOpen }) => {
         <a href="https://thelearningcurves.github.io/my_blog"> My Blog </a>
       </li>
       <li>
-        <a href="https://google.com"> Inversion</a>
+        <a href="https://thelearningcurves.github.io/inversion/"> Inversion</a>
       </li>
       <li>
         <a href="https://google.com"> Migration</a>
